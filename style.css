@@ -1,0 +1,32 @@
+body {
+    padding-top: 70px;
+}
+
+.buttons a {
+    margin: 2px;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-submenu:hover>a,
+.dropdown-submenu:focus>a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4E7EC1;
+}
+
+#inverse-dropdown {
+    background-color: #272727;
+    color: #eeeeee;
+}
+
+#inverse-dropdown>li>a{
+    color: #eeeeee;
+}
+
+#inverse-dropdown>li>a:hover {
+    background-color: #141414;
+    color:#ffffff;
+}
+
+
